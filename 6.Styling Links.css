@@ -1,0 +1,33 @@
+#topbar
+{
+    background-color: greenyellow;
+    padding: 24px 48px;
+}
+body
+{
+    margin: 0%;
+}
+.menu
+{
+    font-size: 24px;
+    margin-right: 24px;
+    color: black;
+    text-decoration: none; /* To Remove Under Line */
+}
+
+.menu:link
+{
+    color: blue;
+}
+.menu:visited
+{
+    color: green;
+}
+.menu:hover
+{
+    color: red;
+}
+.menu:active
+{
+    color: purple;
+}

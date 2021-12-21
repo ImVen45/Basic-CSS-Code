@@ -1,0 +1,11 @@
+#ol
+{
+    list-style-type: upper-latin;
+    width: 500px;
+    list-style-position: inside;
+}
+#ul
+{
+    list-style-type: square;
+    padding-left: 0;
+}

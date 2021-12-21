@@ -1,0 +1,18 @@
+.image
+{
+    width: 700px;
+    height: 700px;
+}
+
+.image-wrapper
+{
+    display: inline;
+}
+
+.menu
+{
+    font-size: 24px;
+    display: block;
+    /* display: none; */
+    visibility: hidden;
+}
