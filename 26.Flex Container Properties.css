@@ -1,0 +1,71 @@
+body
+{
+    margin: 0;
+}
+
+#container
+{
+    width: 100vw;
+    height: 100vh;   /* Comment This if You try Flex Row */
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+
+    display: flex;
+    
+    /*flex-direction: row;*/
+
+    /*flex-direction: row-reverse;*/
+
+    /*flex-direction: column;*/
+
+    /*flex-direction: column-reverse;*/
+
+    
+    /*justify-content: space-between;*/
+
+    /*justify-content: space-around;*/
+
+    /*justify-content: flex-start;*/
+
+    /*justify-content: flex-end;*/
+    
+    /*justify-content: center;*/
+
+
+    /*flex-direction: column;*/
+
+    /*justify-content: space-between;*/
+
+    /*justify-content: space-around;*/
+
+    /*justify-content: flex-start;*/
+
+    /*justify-content: flex-end;*/
+    
+    /*justify-content: center;*/
+
+
+    /*flex-wrap: wrap;*/
+
+    /*flex-wrap: wrap-reverse;*/
+
+    /*flex-wrap: nowrap;*/
+
+
+    flex-direction: column;
+
+    /*flex-wrap: wrap;*/
+
+    flex-wrap: wrap-reverse;
+}
+
+.item
+{
+    background-color: lightcoral;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    padding: 32px;
+    font-size: 24px;
+    text-align: center;
+}
