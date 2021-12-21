@@ -1,0 +1,36 @@
+body
+{
+    margin: 0;
+}
+
+header
+{
+    width: 100%;    
+    padding: 32px;
+    box-sizing: border-box;
+    height: 720px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-image: url('/Milky\ Way.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav
+{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    word-spacing: 20px;
+}
+
+h1
+{
+    font-size: 40px;
+    color: orangered;
+}
+
+p
+{
+    color: orchid;
+}

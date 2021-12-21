@@ -1,0 +1,36 @@
+#topbar
+{
+    border: 2px double green;
+    padding: 16px 20px 24px 28px;
+    box-shadow: 0px 2px 5px green;
+}
+
+#logo
+{
+    color: #0086ff;
+    font-size: 32px;
+    letter-spacing: -1px;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 48px;
+}
+
+main
+{
+    padding: 2% 12%;
+    box-sizing: border-box;
+}
+
+h1
+{
+    color: red;
+
+    /* text-shadow: 4px 4px 10px green; */
+    /* text-shadow: 2px 2px 2px blue,2px 6px 2px green; */
+
+    width: 300px;
+    height: 300px;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 2px 2px 4px blue;
+}

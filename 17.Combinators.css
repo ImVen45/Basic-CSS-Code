@@ -1,0 +1,74 @@
+#topbar
+{
+    border: 2px double green;
+    padding: 16px 20px 24px 28px;
+}
+
+#logo
+{
+    color: #0086ff;
+    font-size: 32px;
+    letter-spacing: -1px;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 48px;
+}
+
+.menu-item
+{
+    margin: 0%;
+    margin-right: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    float: right;
+}
+
+#article-wrapper
+{
+    padding: 4% 16%;
+}
+
+h3
+{
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Descendant Selector */
+
+/*article p
+{
+    font-size: 18px;
+    background-color: lightgreen;
+}*/
+
+/* Child Selector */
+
+/*article > p
+{
+    background-color: lightsalmon;
+}*/
+
+/* Adjacent Sibling Selector */
+
+/*div + p
+{
+    background-color: lightseagreen;
+}*/
+
+/*h3 + p
+{
+    background-color: lightsteelblue;
+}*/
+
+/* General Sibling  Selectors */
+
+div ~ p
+{
+    background-color: lightslategray;
+}
